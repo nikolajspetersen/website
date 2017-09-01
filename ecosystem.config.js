@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-54-93-250-90.eu-central-1.compute.amazonaws.com',
+      host: 'ec2-18-194-36-77.eu-central-1.compute.amazonaws.com',
       key: '~/.ssh/nikolajslot.pem',
       ref: 'origin/master',
       repo: 'git@github.com:nikolajspetersen/website.git',
